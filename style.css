@@ -13,7 +13,13 @@ main {
 
 #mainLeft {
     border-right: 1px solid lightgray;
- }
+}
+
+#center {
+    display: grid;
+    grid-template-columns: 100%;
+    margin: auto;
+}
 
 header {
     text-align: center;
